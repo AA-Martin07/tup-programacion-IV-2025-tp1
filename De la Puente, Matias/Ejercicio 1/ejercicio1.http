@@ -1,0 +1,72 @@
+//perimetro rectangulo
+# POST http://localhost:3000/calcular
+# Content-Type: application/json
+
+# {
+#     "opcion": "perimetro",
+#     "base": 100,
+#     "altura": 10
+# }
+
+
+//area rectangulo
+# POST http://localhost:3000/calcular
+# Content-Type: application/json
+
+# {
+#     "opcion": "area",
+#     "base": 7,
+#     "altura": 10
+# }
+
+
+//error en opcion
+# POST http://localhost:3000/calcular
+# Content-Type: application/json
+
+# {
+#     "opcion": "Aera",
+#     "base": 5,
+#     "altura": 1
+# }
+
+//error en base nula
+# POST http://localhost:3000/calcular 
+# Content-Type: application/json
+
+# {
+#     "opcion": "perimetro",
+#     "base": 0,
+#     "altura": 10
+# }
+
+
+//perimetro cuadrado
+# POST http://localhost:3000/calcular
+# Content-Type: application/json
+
+# {
+#     "opcion": "perimetro",
+#     "base": 10,
+#     "altura": 10
+# }
+
+
+//area cuadrado
+# POST http://localhost:3000/calcular
+# Content-Type: application/json
+
+# {
+#     "opcion": "AREA",
+#     "base": 10,
+#     "altura": 10
+# }
+
+
+//Obtener listado
+# GET http://localhost:3000/calculos
+# Content-Type: application/json
+
+
+# DELETE http://localhost:3000/calculos/1
+# Content-Type: application/json
