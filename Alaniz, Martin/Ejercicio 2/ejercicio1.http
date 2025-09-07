@@ -1,0 +1,37 @@
+@Url = http://localhost:3000/
+
+# POST {{Url}}alumnos
+# Content-Type: application/json
+
+# {
+#     "nombre": "alumno, de prUeba",
+#     "notas": [9, 2, 5]
+# }
+
+# GET {{Url}}alumnos
+# Content-Type: application/json
+
+
+# GET {{Url}}alumnos/1
+# Content-Type: application/json
+
+
+# GET {{Url}}alumnos/nombre?nombre=
+# Content-Type: application/json
+
+
+# GET {{Url}}alumnos/1/notas
+# Content-Type: application/json
+
+
+# DELETE {{Url}}alumnos/1
+# Content-Type: application/json
+
+
+# PUT {{Url}}alumnos/1
+# Content-Type: application/json
+
+# {
+#     "nombre": "Edinson, Acavani",
+#     "notas": [5, 9, 3]
+# }
