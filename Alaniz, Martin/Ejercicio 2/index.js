@@ -49,7 +49,7 @@ app.get('/alumnos/nombre', (req, res) => {
   const alumnosFiltrados = alumnos.filter((a) => a.nombre.toLowerCase().includes(nombre.toLowerCase()))
 
   if (alumnosFiltrados.length === 0) {
-    return res.status(404).json({ success: false, message: 'no se encontraron coincidencias en ${nombre}' })
+    return res.status(404).json({ success: false, message: `no se encontraron coincidencias en ${nombre}` })
   }
   res.json({ alumnos: alumnosFiltrados })
 })

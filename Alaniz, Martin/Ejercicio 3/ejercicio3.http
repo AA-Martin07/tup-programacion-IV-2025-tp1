@@ -1,0 +1,33 @@
+@Url = http://localhost:3000/
+
+# POST {{Url}}tareas
+# Content-Type: application/json
+
+# {
+#     "tarea": "correr 1km",
+#     "estado": "completada"
+# }
+
+# GET {{Url}}tareas
+# Content-Type: application/json
+
+
+# GET {{Url}}tareas/1
+# Content-Type: application/json
+
+
+# GET {{Url}}tareas/estado?estado=pendiente
+# Content-Type: application/json
+
+
+# DELETE {{Url}}tareas/1
+# Content-Type: application/json
+
+
+# PUT {{Url}}tareas/2
+# Content-Type: application/json
+
+# {
+#     "tarea": "correr 5km",
+#     "estado": "pendiente"
+# }
